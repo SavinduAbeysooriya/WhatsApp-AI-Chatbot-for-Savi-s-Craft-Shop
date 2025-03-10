@@ -27,8 +27,8 @@ def get_response(query):
     return response
 
 # Twilio credentials (replace with your own)
-account_sid = "AC0ad01ac999451e86d80c4466f9b6fe9a"
-auth_token = "c29ee0eff1cc0119b9a2cda27e16d355"
+account_sid = "##############################"
+auth_token = "#############################"
 client = Client(account_sid, auth_token)
 
 @app.route("/whatsapp", methods=["POST"])
